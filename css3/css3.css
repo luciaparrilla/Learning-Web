@@ -1,0 +1,25 @@
+p::first-line { /*cuando hay :: significa que son pseudo-selectores*/
+    font-size:2em;
+}
+
+li:hover,
+h2:hover {
+    background-color: blue;
+    color:white;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background-color: dodgerblue;
+}
+
+a:active {
+    background-color: tomato;
+}
