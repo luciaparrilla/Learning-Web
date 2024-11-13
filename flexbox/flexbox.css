@@ -1,0 +1,15 @@
+/*Probar en herramientas para desarrolladores y vista de diseño adaptable*/
+
+.container {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    /*flex-flow: row wrap;*/
+}
+
+.child {
+    border: 1px dashed black;
+}
